@@ -8,31 +8,30 @@ export default function App() {
   const daftarBangsal = ["Fahrudin", "Al Ma'un", "Chamdani", "Salamah", "Khotijah", "ICU", "Poli"];
 
   const daftarDokter = [
-    "Anwar",
-    "Sari Anak",
-    "Jalul",
-    "Khayati",
-    "Khalifah",
     "Adi",
-    "Aziz",
-    "Faisal",
-    "Inet",
-    "Sari Jantung ",
-    "Ricky",
-    "Tri Hastuti",
-    "Andi",
-    "Haryono",
-    "Levi",
     "Alam",
+    "Andi",
     "Andreas",
-    "Satya",
-    "Windy",
-    "Deyna",
-    "Yayan",
-    "Vida",
-    "Iwan",
-    "Inkoni",
+    "Anwar",
+    "Aziz",
     "Desi",
+    "Faisal",
+    "Haryono",
+    "Inet",
+    "Inkoni",
+    "Iwan",
+    "Jalul",
+    "Khalifa",
+    "Khayati",
+    "Levi",
+    "Ricky",
+    "Sari Anak",
+    "Sari Jantung",
+    "Satya",
+    "Tri Hastuti",
+    "Vida",
+    "Windy",
+    "Yayan",
   ];
 
   // dokter unik untuk filter
@@ -57,9 +56,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 flex items-center justify-center lg:p-4 p-2">
-      <div className="bg-slate-950 rounded-2xl  lg:p-6 w-full lg:max-w-8xl space-y-6">
-        <h1 className="text-2xl font-bold text-center text-slate-50">Manajemen Sensus Dokter</h1>
+    <div className="min-h-screen bg-slate-100 flex items-center justify-center lg:p-4 p-2">
+      <div className="bg-slate-100 rounded-2xl  lg:p-6 w-full lg:max-w-8xl space-y-6">
+        <h1 className="text-2xl font-bold text-center text-slate-950">Manajemen Sensus Dokter</h1>
         <div className="grid lg:grid-cols-[5fr_7fr] grid-cols-1 gap-5">
           {/* INPUT */}
           <div>
@@ -131,7 +130,6 @@ export default function App() {
                       <p className="font-bold text-blue-600 mb-2">dr. {dokter}</p>
 
                       <p className="text-slate-950">
-                        Bertugas di:{" "}
                         {bangsal.map((b, i) => (
                           <span key={b}>
                             {b}
