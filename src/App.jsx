@@ -196,7 +196,7 @@ export default function App() {
         <p className="text-center text-sm text-slate-800 mt-4">
           Created with 💖 by{" "}
           <a href="https://brewokode.com" className="text-blue-600 underline">
-            Hasbi R
+            brewokode.com
           </a>
         </p>
       </div>
