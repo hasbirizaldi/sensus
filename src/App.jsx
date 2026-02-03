@@ -23,7 +23,7 @@ export default function App() {
       id: 1,
       nama: "Adi",
       fullname:'dr. Adi Purnomo, Sp.B',
-      wa: "6289691544955",
+      wa: "62811257001",
     },
     {
       id: 2,
@@ -35,25 +35,25 @@ export default function App() {
       id: 3,
       nama: "Andi",
       fullname:'dr. Andi Sulistyo Nugroho, Sp.KFR',
-      wa: "6282525252525",
+      wa: "628122666710",
     },
     {
       id: 4,
       nama: "Andreas",
       fullname:"dr. Andreas Pramudito, Sp. U",
-      wa: "6285640402997",
+      wa: "6285643956699",
     },
     {
       id: 5,
       nama: "Anwar",
       fullname:"dr. Khoerul Anwar, Sp.PD",
-      wa: "6285640402997",
+      wa: "6281393890635",
     },
     {
       id: 6,
       nama: "Aziz",
       fullname:"dr. M. Abdul Aziz, Sp.OT",
-      wa: "6285640402997",
+      wa: "6282221913050",
     },
     {
       id: 7,
@@ -65,25 +65,25 @@ export default function App() {
       id: 8,
       nama: "Faizal",
       fullname:"dr. Muhammad Faizal Hadiyanto, Sp.An",
-      wa: "6285640402997",
+      wa: "6281325695698",
     },
     {
       id: 9,
       nama: "Haryono",
       fullname:"dr. Haryono Yuniarto, Sp.PD-KGH",
-      wa: "6285640402997",
+      wa: "6282328010423",
     },
     {
       id: 10,
       nama: "Inet",
       fullname:"dr. Inet Fyndiannne M, Sp. P",
-      wa: "6285640402997",
+      wa: "6281802673525",
     },
     {
       id: 11,
       nama: "Inkoni",
       fullname:"dr. Inkoni Novitasari, Sp. M",
-      wa: "6285640402997",
+      wa: "6282323233839",
     },
     {
       id: 12,
@@ -101,13 +101,13 @@ export default function App() {
       id: 14,
       nama: "Khalifa",
       fullname:"dr. Khalifa Rahmani, Sp.N",
-      wa: "6285640402997",
+      wa: "6281318387701",
     },
     {
       id: 15,
       nama: "Khayati",
       fullname:"dr. Khayati Handayani, Sp.PD",
-      wa: "6285640402997",
+      wa: "6281573667690",
     },
     {
       id: 16,
@@ -119,19 +119,19 @@ export default function App() {
       id: 17,
       nama: "Ricky",
       fullname:"dr. Ricky Dwi Nur Tyastono, Sp.B",
-      wa: "6285640402997",
+      wa: "6282313451212",
     },
      {
       id: 18,
       nama: "Sari Anak",
       fullname:"dr. Dyah Ayu Wulansari, M.Sc., Sp.A",
-      wa: "6285640402997",
+      wa: "6282242603941",
     },
      {
       id: 19,
       nama: "Sari Jantung",
       fullname:"dr. Sari Rahayu Dwi Utami, Sp.JP",
-      wa: "6285640402997",
+      wa: "6285157601419",
     },
      {
       id: 20,
@@ -143,7 +143,7 @@ export default function App() {
       id: 21,
       nama: "Tri Hastuti",
       fullname:"dr. Tri Hastuti H, Sp.S",
-      wa: "6285640402997",
+      wa: "6281356080886",
     },
     {
       id: 22,
@@ -155,13 +155,13 @@ export default function App() {
       id: 23,
       nama: "Windy",
       fullname:"dr. Windy Rizkiana, Sp.THT-KL",
-      wa: "6285640402997",
+      wa: "6285225025186",
     },
     {
       id: 21,
       nama: "Yayan",
       fullname:"dr. Yayan Mitayani, Sp.THT-KL",
-      wa: "6285640402997",
+      wa: "6282136746739",
     },
   ];
 
@@ -262,12 +262,15 @@ export default function App() {
 
     const message = encodeURIComponent(
       `Assalamualaikum wr wb\n` +
-        `${today}\n\n` +
-        `${dokterInfo.fullname}\n` +
-        `Visite ke bangsal: ${bangsalText}\n\n` +
-        `Terimakasih`
+      `${today}\n\n` +
+      `Selamat Pagi ${dokterInfo.fullname}\n`+
+      `Semoga sehat dan berkah selalu\n\n`+
+      `Ini dari RS PKU Muhammadiyah Sruweng menginformasikan :\n`+
+      `Jadwal Poli : \n`+
+      `Jadwal visite pasien hari ini ada di ruang: ${bangsalText}\n\n` +
+      `Terimakasih, Sukses Selalu Dokter \n\n`+
+      `Wassalamualaikum wr wb`
     );
-
 
     window.open(
       `https://wa.me/${dokterInfo.wa}?text=${message}`,
@@ -430,4 +433,5 @@ export default function App() {
     </div>
   );
 }
+
 
