@@ -150,7 +150,7 @@ export default function App() {
     },
     {
       id: 22,
-      nama: "dr. M.P. Hastuti",
+      nama: "drg. M.P. Hastuti",
       fullname:"drg. M.P. Hastuti",
       wa: "6285640402997",
     },
@@ -437,7 +437,7 @@ export default function App() {
               >
                 <div className="flex justify-between items-center">
                   <p className="font-bold text-blue-600">
-                    dr. {dokterInfo?.nama}
+                  {dokterInfo?.nama}
                   </p>
 
                   <div className="flex items-center gap-8 bg-slate-200 px-3 py-1 rounded shadow">
