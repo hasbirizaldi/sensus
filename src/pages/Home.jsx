@@ -11,11 +11,11 @@ export default function App() {
 
   // ===================== DATA BANGSAL =====================
   const daftarBangsal = [
-    "Fahrudin",
+    "AR Fakhrudin",
     "Al Ma'un",
     "Chamdani",
     "Salamah",
-    "Khotijah",
+    "Khodijah",
     "ICU",
     "Poli",
   ];
@@ -90,8 +90,8 @@ export default function App() {
     },
     {
       id: 12,
-      nama: "dr. Iwan",
-      fullname:"dr. Iwan Danardono, Sp.Rad",
+      nama: "dr. Triwidya ",
+      fullname:"dr. Triwidya Putri M, Sp.PD",
       wa: "6285640402997",
     },
     {
@@ -150,8 +150,8 @@ export default function App() {
     },
     {
       id: 22,
-      nama: "dr. Vida",
-      fullname:"dr. Vida Berry Al Aden, Sp.Rad",
+      nama: "dr. M.P. Hastuti",
+      fullname:"drg. M.P. Hastuti",
       wa: "6285640402997",
     },
     {
@@ -162,8 +162,8 @@ export default function App() {
     },
     {
       id: 24,
-      nama: "dr. Yayan",
-      fullname:"dr. Yayan Mitayani, Sp.THT-KL",
+      nama: "drg. Surdin",
+      fullname:"drg. Surdin, Sp.Pros",
       wa: "6282136746739",
     },
   ];
