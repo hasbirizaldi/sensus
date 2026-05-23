@@ -60,8 +60,8 @@ export default function App() {
     },
     {
       id: 7,
-      nama: "dr. Desi",
-      fullname:"dr. Desi Widiyanti, Sp.PK",
+      nama: "dr. Budi",
+      fullname:"dr. Budi Susanto, Sp.B",
       wa: "6285640402997",
     },
     {
