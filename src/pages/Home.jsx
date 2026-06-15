@@ -166,6 +166,12 @@ export default function App() {
       fullname:"drg. Surdin, Sp.Pros",
       wa: "6282136746739",
     },
+    {
+      id: 25,
+      nama: "dr. Pradhiska Arie",
+      fullname:"dr. Pradhiska Arie P, Sp.An-TI",
+      wa: "6282136746739",
+    },
   ];
 
   // ===================== TANGGAL HARI INI =====================
